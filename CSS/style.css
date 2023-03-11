@@ -1,0 +1,14 @@
+#firstPokemon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.whisper {
+    font-weight: bold;
+}
+
+.fire:hover {
+    border-radius: 12px;
+    background-color: orange;
+    max-block-size: inherit;
+}
