@@ -3,32 +3,40 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/style.css">
     <title>Pokédex</title>
 </head>
 
-<body>
-    <h1>Professor Matheus Oak</h1>
-    <img src="img/professor matheus oak.jpeg" title="Professor Oak" width="400" height="600">
-    <div>
-        <p class="whisper">Professor says:</p>
-        <p>Hello, dear adventurer!</p>
-        <p>How are you? Good I hope!</p>
-        <p>Are you ready to be a Pokémon Master?</p>
-        <p>First, choose your starter pokemon, but remember.. Each has an element and each element has advantages and
-            disadvantages over the others!</p>
-    </div>
-    <div>
-        <h2>So, Pick you first Pokémon!</h2>
-        <p><strong>Tip:</strong><i> Place the cursor over the pokemon to see its type and click to see more details
-                about!</i></p>
-    </div>
+<body class="initialPage">
+    <section>
+        <h1>Pokémon Master</h1>
+        <div class="introduce">
+            <a href="https://www.linkedin.com/in/matheusbzevedo/" target="_blank"><img
+                    src="img/Matheus Oak Azevedo.jpeg" title="Professor Oak" class="photo"></a>
+            <div class="pAlign">
+                <p class="whisper">Professor says:</p>
+                <p>Hello, dear adventurer!</p>
+                <p>My name is <strong>Professor Matheus Oak</strong>!</p>
+                <p>How are you? Good I hope!</p>
+                <p>Are you ready to be a Pokémon Master?</p>
+                <p>First, choose your starter pokemon, but remember.. Each has an element and each element has
+                    advantages and disadvantages over the others!</p>
+            </div>
+        </div>
+        <div class="pick">
+            <h2>So, Pick you first Pokémon!</h2>
+            <p><strong>* Tip:</strong><i> Place the cursor over the pokemon to see its type and click to see more
+                    details about it!</i></p>
+        </div>
+    </section>
+
     <div id="firstPokemon">
-        <img src="img/Bulbasaur.jpeg" alt="Bulbasaur" width="150" height="150" title="Bulbasaur" class="grass">
-        <img src="img/Charmander.jpeg" alt="Charmander" width="170" height="170" title="Charmander" class="fire">
-        <img src="img/Squirtle.webp" alt="Squirtle" width="170" height="170" title="Squirtle" class="water">
+        <a href="/pokemonTypes/grass.html"><img src="img/Grass/Bulbasaur867x793 no-bg.png" alt="Bulbasaur"
+                title="Bulbasaur" class="grass"></a>
+        <a href="/pokemonTypes/fire.html"><img src="img/Fire/Charmander824x883 no-bg.png" alt="Charmander"
+                title="Charmander" class="fire"></a>
+        <a href="/pokemonTypes/water.html"><img src="img/Water/squirtle824x858 no-bg.png" alt="Squirtle"
+                title="Squirtle" class="water"></a>
     </div>
 
 </body>
